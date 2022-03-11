@@ -10,6 +10,7 @@ function handleLoginButton(e){
     loginForm.classList.add(HIDDEN_CLASSNAME)
     const username = loginInput.value;
     // greeting.innerText = "Hello " + username;
+    localStorage.setItem("username", username)
     greeting.innerText = `Hello ${username}`;
     // .remove(HIDDEN_CLASSNAME)
     greeting.classList.remove(HIDDEN_CLASSNAME)
