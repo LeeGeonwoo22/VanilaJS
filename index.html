@@ -8,12 +8,14 @@
     <title>Momentum App</title>
 </head>
 <body>
-    <form id="login-form">
+    <form class="hidden" id="login-form">
         <!-- <h1 id="greeting" class="hidden">Greetings</h1> -->
         <input require maxlength="15" type="text" placeholder="What is your name?">
         <input type="submit" value="Log In" />
     </form>
     <h1 id="greeting" class="hidden"></h1>
-    <script src="./script/app.js"></script>
+    <h2 id="clock">00:00</h2>
+    <script src="./script/greetings.js"></script>
+    <script src="./script/clock.js"></script>
 </body>
 </html>
