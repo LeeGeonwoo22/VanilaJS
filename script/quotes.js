@@ -50,7 +50,8 @@ const author = document.querySelector("#quote span:last-child");
 
 // console.log(quotes[1]);
 // Math.round. cecil, floor 중에 하나를 쓸것임.
-const todaysQuote = quotes[Math.floor(Math.random()*quotes.length)]
+// const todaysQuote = quotes[Math.floor(Math.random()*quotes.length)];
+const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.quote;
-quote.innerText = todaysQuote.author;
+author.innerText = todaysQuote.author;
